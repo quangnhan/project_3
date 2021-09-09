@@ -1,4 +1,15 @@
+Truffle v5.4.7 (core: 5.4.7)
+Solidity - 0.8.0 (solc-js)
+Node v14.16.1
+Web3.js v1.5.2
+
 1. Smartcontract:
+
+- Contract address
+  Url: https://rinkeby.etherscan.io/address/0x15391e8dD6812E7686E1F06Fa23A01D5aE6A7527
+  dapp/src/utils/contract.js
+  const contract_address = "0x15391e8dD6812E7686E1F06Fa23A01D5aE6A7527";
+  You should create this contract again, because you have to be a farmer to havest item, and only farmer can add new farmer. In this contract, only my account is a farmer, so that you can't not become a farmer.
 
 - You should create new contract with my code. Account create contract will become farmer, distributor, retailer and consumer.
 
